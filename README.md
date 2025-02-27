@@ -32,8 +32,8 @@ fluorescence-tracker
 To set up the project, clone the repository and install the required dependencies:
 
 ```bash
-git clone <repository-url>
-cd fluorescence-tracker
+git clone https://github.com/juulin/Celltracker.git
+cd Celltracker
 pip install -r requirements.txt
 ```
 
