@@ -13,7 +13,7 @@ fluorescence-tracker
 │   ├── main.py               # Entry point of the application
 │   ├── image_processor.py     # Image processing functionalities
 │   ├── cell_tracker.py        # Cell tracking functionalities
-│   ├── statistics.py          # Statistical calculations
+│   ├── custom_statistics.py          # Statistical calculations
 │   └── data_export.py         # Data export to CSV
 ├── config
 │   └── settings.yaml          # Configuration settings
