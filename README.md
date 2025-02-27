@@ -42,9 +42,9 @@ pip install -r requirements.txt
 To run the application, execute the following command:
 
 ```bash
-python src/main.py
+py src/main.py
 ```
-
+For kinase translocation reporters (KTRs) The data should be a TIF hyperstack, having preferably seperate channels for a constant bright nucleus marker and one for the KTR in which the cytoplasm and nucleus are both visible.
 Follow the prompts to input the path to the TIF stack of images. The application will process the images, track the cells, and generate a CSV file with the results.
 
 ## Features
@@ -54,9 +54,17 @@ Follow the prompts to input the path to the TIF stack of images. The application
 - Calculate average intensities and standard error for each tracked cell.
 - Export results to a CSV file for further analysis.
 
+## To-do
+- [ ] Cleanup output .csv files
+- [ ] Multi-TIF stack support for an input directory
+### Far future
+- [ ] Compatability for non-KTR experiments
+- [ ] Lifetime measurement support
+- [ ] Possibly add small GUI?
+
 ## Contributing
 
-Contributions are welcome! Please submit a pull request or open an issue for any enhancements or bug fixes.
+Contributions are welcome! Please submit a pull request or open an issue for any enhancements or bug fixes 😉.
 
 ## License
 
