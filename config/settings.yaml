@@ -1,0 +1,17 @@
+file: /fluorescence-tracker/fluorescence-tracker/config/settings.yaml
+content:
+  tif_stack_path: "path/to/tif/stack"
+  output_csv_path: "path/to/output/data.csv"
+  preprocessing:
+    gaussian_blur: true
+    blur_radius: 2
+  tracking:
+    min_cell_size: 100
+    max_cell_size: 1000
+    tracking_method: "simple"
+  statistics:
+    calculate_average_intensity: true
+    calculate_standard_error: true
+    additional_metrics: 
+      - "median_intensity"
+      - "intensity_range"
