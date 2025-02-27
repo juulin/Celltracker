@@ -2,6 +2,9 @@
 
 Fluorescence Tracker is a Python project designed to process TIF stacks of fluorescence microscopy images. The project tracks individual cells over time, calculates average intensities, standard error, and other statistics, and generates a CSV file containing this data for each cell across all frames.
 
+## ⚠️ Disclaimer ⚠️
+This project was written using—our lord and saviour 🙏—Claude 3.7 (Sonnet). 
+
 ## Project Structure
 
 ```
